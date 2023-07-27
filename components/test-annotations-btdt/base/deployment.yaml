@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-btdt
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-zunq-tenant/test-annotations-app-bnbx/test-annotations-btdt@sha256:40e28bf9144876b7322a9fe3d7ff7e9903950b3d32f120775b109a0396076bcf
         name: my-nginx
         ports:
         - containerPort: 8080
